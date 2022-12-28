@@ -10,7 +10,7 @@ describe("Intern", () => {
     });
 
     describe("getSchool()", () => {
-        test("Return employee type.", () => {
+        test("Return employee school.", () => {
             const school = "Wilfrid Laurier University"
             const employee = new Intern("John",1,"bestemployee@john.ca", school);
             expect(employee.getSchool()).toEqual(school);
